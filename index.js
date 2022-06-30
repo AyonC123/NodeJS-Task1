@@ -15,4 +15,4 @@ const getNation = async (name) => {
   }
 };
 
-getNation(process.argv.slice(2).toString());
+getNation(process.argv[2]);
