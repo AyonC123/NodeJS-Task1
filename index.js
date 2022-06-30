@@ -1,3 +1,5 @@
+import fetch from "node-fetch";
+
 const getNation = async (name) => {
   try {
     const data = await (
